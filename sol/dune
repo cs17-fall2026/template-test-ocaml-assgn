@@ -1,0 +1,7 @@
+(executables
+ (public_names ocaml-test-assgn)
+ (modes exe)
+ (names main)
+ (libraries src)
+ (preprocess
+  (pps ppx_expect ppx_sexp_conv)))
